@@ -10,6 +10,16 @@ body {
     animation: gradient 10s ease infinite;
 }
 
+@media screen and (max-width: 852px) {
+    body {
+        font-size: 14px;
+    }
+
+    .center {
+        padding: 20px;
+    }
+}
+
 @keyframes gradient {
     0% {
         background-position: 0 50%;
